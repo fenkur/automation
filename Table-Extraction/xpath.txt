@@ -1,0 +1,16 @@
+XPath Syntax:
+
+# Select tag 
+//tagName
+
+# Certain tag
+//tagName[1]
+
+# Tag with attribute
+//tagName[@attributeName='value']
+
+XPath Functions:
+contains()
+starts-with()
+ex. //tagName[contains[@attributeName='value']]
+
