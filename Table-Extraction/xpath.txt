@@ -14,3 +14,9 @@ contains()
 starts-with()
 ex. //tagName[contains[@attributeName='value']]
 
+XPath Operators
+//tagName[(expression 1) and (expression2)]
+
+Special Characters:
+/: selects the child from the node set on the left side of this character
+//: specifics that the matching node set should be located at any level within the document
